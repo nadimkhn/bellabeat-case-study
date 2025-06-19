@@ -1,0 +1,13 @@
+# Logs and outputs
+**/*.log
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R and RStudio files
+.RData
+.Rhistory
+
+# Data files
+data/*

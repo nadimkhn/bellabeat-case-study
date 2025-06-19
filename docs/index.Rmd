@@ -83,23 +83,23 @@ Let's start by importing the csv files into dataframes for exploration.
 
 # Importing 03/12/2016-04/11/16 datasets
 
-daily_activity_03_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
+daily_activity_03_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
 
 # Daily aggregated data for intensities, calories, steps and sleep is present between 03/12/2016-04/11/2016, so I will use the hourly and minute level outputs to compute daily totals.
 
-hourly_calories_03_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 3.12.16-4.11.16/hourlyCalories_merged.csv")
-hourly_steps_03_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 3.12.16-4.11.16/hourlySteps_merged.csv")
-minute_sleep_03_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 3.12.16-4.11.16/minuteSleep_merged.csv")
-weight_log_03_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 3.12.16-4.11.16/weightLogInfo_merged.csv")
+hourly_calories_03_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 3.12.16-4.11.16/hourlyCalories_merged.csv")
+hourly_steps_03_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 3.12.16-4.11.16/hourlySteps_merged.csv")
+minute_sleep_03_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 3.12.16-4.11.16/minuteSleep_merged.csv")
+weight_log_03_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 3.12.16-4.11.16/weightLogInfo_merged.csv")
 
 # Importing 04/12/16-05/12/2016 datasets
 
-daily_activity_04_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
+daily_activity_04_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
 
-hourly_calories_04_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 4.12.16-5.12.16/hourlyCalories_merged.csv")
-hourly_steps_04_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 4.12.16-5.12.16/hourlySteps_merged.csv")
-minute_sleep_04_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 4.12.16-5.12.16/minuteSleep_merged.csv")
-weight_log_04_12 <- read_csv("~/Documents/Bellabeat-Case-Study/data/Fitabase Data 4.12.16-5.12.16/weightLogInfo_merged.csv")
+hourly_calories_04_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 4.12.16-5.12.16/hourlyCalories_merged.csv")
+hourly_steps_04_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 4.12.16-5.12.16/hourlySteps_merged.csv")
+minute_sleep_04_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 4.12.16-5.12.16/minuteSleep_merged.csv")
+weight_log_04_12 <- read_csv("~/Desktop/PROJECTS/bellabeat-case-study/data/Fitabase Data 4.12.16-5.12.16/weightLogInfo_merged.csv")
 ```
 Let's explore and compare the datasets to see how its organized.
 
@@ -368,7 +368,7 @@ weight_log <- clean_names(weight_log)
 
 ```
 
-## Analyze
+## 4. Analyze
 *Deliverable: A summary of your analysis*
 
 Let's start with a summary statistics of all columns in our final datasets.
@@ -487,7 +487,7 @@ ggplot(daily_sleep %>%
 - Most active days: Wednesday & Thursday
 - Sleep duration peaked on weekends, especially Sundays.
 
-## Share
+## 5. Share
 *Deliverable: Your top high-level insights based on your analysis*
 
 **Behavioural Treds**
