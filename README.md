@@ -24,5 +24,6 @@ Using the six-step data analysis process — **Ask, Prepare, Process, Analyze, S
   [Fitbit Fitness Tracker Data on Kaggle]((https://www.kaggle.com/datasets/arashnic/fitbit/data))  
   (CC0 Public Domain - provided via Amazon Mechanical Turk)
 
-> **[Click here to view the full analysis →](https://nadimkhn.github.io/bellabeat-case-study/)**  
-(Hosted via GitHub Pages)
+<a href="https://nadimkhn.github.io/bellabeat-case-study/">
+  <img src="https://img.shields.io/badge/View-Full%20Analysis%20Here-cyan" width="200"/>
+</a>
